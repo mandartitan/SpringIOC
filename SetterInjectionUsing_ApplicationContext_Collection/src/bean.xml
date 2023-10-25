@@ -1,0 +1,47 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        <bean id="c"  class="com.model.CollectionType">
+              <property name="cities">
+              
+              <list>
+              
+              <value> MUMBAI</value>
+               <value> PUNE</value>
+ 
+              </list>
+              
+              </property>
+              
+              <property name="code">
+              
+              <set>
+              
+              <value> 101</value>
+               <value> 102</value>
+ 
+              </set>
+              
+              </property>
+              
+              <property name="country">
+              
+              <map>
+              
+              <entry key="+91" value="India"></entry>
+              <entry key="+1" value="USA"></entry>
+ 
+              </map>
+              
+              </property>
+              
+              
+              
+          </bean>
+        
+       
+        
+</beans>
